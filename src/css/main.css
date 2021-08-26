@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    scroll-behavior: smooth;
+    background: #CCC;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: yellow;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.navbar {
+    background: #062419;
+}
+
+#banner {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+#sobre-mim {
+    padding: 70px;
+    background: #44B78B;
+    color: #FFF
+}
+
+#projetos {
+    padding: 20px;
+}
+
+.projeto-link {
+    text-align: center;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto-link a {
+    color: #484848;
+    font-size: 24px;
+}
+
+#contato {
+    background: #092e20;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #FFF
+}
+
+#rodape {
+    background: #062419;
+}
+
+#btn-linkedin {
+    background: #0e76a8;
+}
