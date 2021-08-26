@@ -15,7 +15,7 @@ p {
 }
 
 .navbar {
-    background: #062419;
+    background: #44B78B;
 }
 
 #banner {
@@ -31,7 +31,7 @@ p {
 }
 
 #sobre-mim {
-    padding: 70px;
+    padding: 70px 30px;
     background: #44B78B;
     color: #FFF
 }
@@ -53,6 +53,7 @@ p {
 }
 
 #contato {
+    padding: 70px 30px;
     background: #092e20;
 }
 
@@ -67,4 +68,10 @@ p {
 
 #btn-linkedin {
     background: #0e76a8;
+}
+
+@media screen and (max-width: 800px) {
+    #contato {
+        height: 90vh;
+    }
 }
